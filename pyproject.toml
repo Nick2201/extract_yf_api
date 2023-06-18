@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-info"
+version = "0.1.0"
+description = ""
+authors = ["Nick <nicklisits@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_info"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.1"
+selenium = "^4.9.1"
+sqlalchemy = "^2.0.16"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
